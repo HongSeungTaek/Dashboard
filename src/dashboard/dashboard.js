@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+function Dashboard() {
   return (
-    <div className="App">
+    <div className="db-container">
     </div>
   );
 }
