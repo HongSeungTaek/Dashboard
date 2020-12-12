@@ -1,5 +1,4 @@
 import React from 'react';
-import './Pie.css';
 import { Pie } from 'react-chartjs-2';
 
 
@@ -24,15 +23,13 @@ const data = {
 	}]
 };
 
-export default React.createClass({
-  displayName: 'PieChart',
+class PieChart extends React.Component {
 
   render() {
     return (
-      <div>
-        <h2>Pie Example</h2>
-        <Pie data={data} />
-      </div>
+      <Pie data={data} />
     );
   }
-});
+}
+
+export default PieChart;
