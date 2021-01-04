@@ -1,0 +1,25 @@
+.main-sidebar {
+  position: fixed;
+  width: 230px;
+  height: 100%;
+  color: #fff;
+  background-color: #05040e;
+}
+
+.ms-header {
+  width: 100%;
+  height: 80px;
+  border: 1px solid red;
+}
+
+.ms-info {
+  width: 100%;
+  height: 240px;
+  border: 1px solid red;
+}
+
+.ms-menu-list {
+  width: 100%;
+  height: 80px;
+  border: 1px solid red;
+}
