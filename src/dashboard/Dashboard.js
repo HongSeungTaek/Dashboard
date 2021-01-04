@@ -34,7 +34,7 @@ function Dashboard() {
   return (
     <div className="db-container">
       <div className="row mb15">
-        <div className="col-4">
+        <div className="col-6">
           <div className="card">
             <div className="card-header">{props.pie_chart.header}</div>
             <div className="card-body">
@@ -42,7 +42,7 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-6">
           <div className="card">
             <div className="card-header">{props.dounut_pie_chart.header}</div>
             <div className="card-body">
@@ -50,7 +50,9 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="col-4">
+      </div>
+      <div className="row mb15">
+        <div className="col-6">
           <div className="card">
             <div className="card-header">{props.line_chart.header}</div>
             <div className="card-body">
@@ -58,9 +60,7 @@ function Dashboard() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="row mb15">
-        <div className="col-4">
+        <div className="col-6">
           <div className="card">
             <div className="card-header">{props.vertical_bar_chart.header}</div>
             <div className="card-body">
@@ -68,7 +68,9 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="col-4">
+      </div>
+      <div className="row mb15">
+        <div className="col-6">
           <div className="card">
             <div className="card-header">{props.stacked_bar_chart.header}</div>
             <div className="card-body">
@@ -76,7 +78,7 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-6">
           <div className="card">
             <div className="card-header">{props.grouped_bar_chart.header}</div>
             <div className="card-body">
