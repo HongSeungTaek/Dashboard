@@ -18,6 +18,7 @@ function Dashboard() {
     },
     line_chart: {
       header: 'Line Chart',
+      height: 70,
     },
     vertical_bar_chart: {
       header: 'VerticalBar Chart',
@@ -34,7 +35,17 @@ function Dashboard() {
   return (
     <div className="db-container">
       <div className="row mb15">
-        <div className="col-6">
+        <div className="col-12">
+          <div className="card">
+            <div className="card-header">{props.line_chart.header}</div>
+            <div className="card-body">
+              <LineChart height={props.line_chart.height}/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row mb15">
+        <div className="col-4">
           <div className="card">
             <div className="card-header">{props.pie_chart.header}</div>
             <div className="card-body">
@@ -42,7 +53,7 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-4">
           <div className="card">
             <div className="card-header">{props.dounut_pie_chart.header}</div>
             <div className="card-body">
@@ -50,17 +61,7 @@ function Dashboard() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="row mb15">
-        <div className="col-6">
-          <div className="card">
-            <div className="card-header">{props.line_chart.header}</div>
-            <div className="card-body">
-              <LineChart/>
-            </div>
-          </div>
-        </div>
-        <div className="col-6">
+        <div className="col-4">
           <div className="card">
             <div className="card-header">{props.vertical_bar_chart.header}</div>
             <div className="card-body">
