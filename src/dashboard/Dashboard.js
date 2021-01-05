@@ -6,9 +6,15 @@ import StackedBar from '../component/charts/StackedBar';
 import VerticalBar from '../component/charts/VerticalBar';
 import DoughnutChart from '../component/charts/Doughnut';
 import GroupedBar from '../component/charts/GroupedBar';
+import axios from 'axios';
 
 
 function Dashboard() {
+  axios.get('/data.json')
+    .then(function(response) {
+      console.log(response);
+    });
+
   let props = {
     pie_chart: {
       header: 'Pie Chart',

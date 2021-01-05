@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://HongSeungTaek.github.io/Dashboard",
   "dependencies": {
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
     "chart.js": "^2.9.4",
     "react": "^16.14.0",
