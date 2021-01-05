@@ -3,22 +3,17 @@ import { Bar } from 'react-chartjs-2';
 
 
 const data = {
-  labels: ['1', '2', '3', '4', '5', '6'],
+  labels: ['1.1', '1.2', '1.3', '1.4', '1.5', '1.6'],
   datasets: [
     {
-      label: '# of Red Votes',
+      label: '국내',
       data: [12, 19, 3, 5, 2, 3],
       backgroundColor: 'rgb(255, 99, 132)',
     },
     {
-      label: '# of Blue Votes',
+      label: '해외',
       data: [2, 3, 20, 5, 1, 4],
       backgroundColor: 'rgb(54, 162, 235)',
-    },
-    {
-      label: '# of Green Votes',
-      data: [3, 10, 13, 15, 22, 30],
-      backgroundColor: 'rgb(75, 192, 192)',
     },
   ],
 }

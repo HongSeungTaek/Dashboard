@@ -30,7 +30,7 @@ function Dashboard() {
       header: 'VerticalBar Chart',
     },
     stacked_bar_chart: {
-      header: 'StackedBar Chart',
+      header: '코로나 확진자(데이터 연동 예정)',
     },
     grouped_bar_chart: {
       header: 'GroupedBar Chart',
