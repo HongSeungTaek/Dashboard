@@ -10,10 +10,6 @@ import axios from 'axios';
 
 
 function Dashboard() {
-  axios.get('/data.json')
-    .then(function(response) {
-      console.log(response);
-    });
 
   let props = {
     pie_chart: {
@@ -30,7 +26,7 @@ function Dashboard() {
       header: 'VerticalBar Chart',
     },
     stacked_bar_chart: {
-      header: '코로나 확진자(데이터 연동 예정)',
+      header: 'StackedBar Chart',
     },
     grouped_bar_chart: {
       header: 'GroupedBar Chart',
