@@ -18,11 +18,36 @@
 .ms-info {
   width: 100%;
   height: 240px;
-  border: 1px solid red;
 }
 
 .ms-menu-list {
   width: 100%;
   height: 80px;
   border: 1px solid red;
+}
+
+.ms-info ul {
+  list-style: none;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.ms-info ul li:hover {
+  display: block;
+  height: 30px;
+}
+
+.ms-info ul li:hover {
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #05141e;
+}
+
+.icon-location {
+  width: 48px;
+  height: 48px;
+  background: url(/src/icons/location.svg) no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  display: inline-block;
 }

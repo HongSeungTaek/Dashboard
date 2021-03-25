@@ -8,7 +8,13 @@ class MainSidebar extends React.Component {
     return (
       <div className="main-sidebar">
         <div className="ms-header">Dashboard</div>
-        <div className="ms-info">바디</div>
+        <div className="ms-info">
+          <ul>
+            <li>
+              <a>사용자 관리</a>
+            </li>
+          </ul>
+        </div>
         <div className="ms-menu-list">바텀</div>
       </div>
     );
